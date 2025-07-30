@@ -1,5 +1,5 @@
 #include <stdio.h>
 #include "hello.h"
-void print_hello(){
-    printf("hello world\n");
+void print_hello(const char* name){
+    printf("Welcome, %s! This is a Git tutorial.\n", name);
 }
